@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, rgb(146, 135, 219), silver);
+    color: rgb(245, 247, 252);
+    font-size: 40px;;
+    font-family: consolas, 'Courier New', Courier, monospace;
+}
+.timerBtn{
+    width: 80px;
+    height:30px;
+    border:3px solid;
+    border-radius:12px;
+    background: linear-gradient(135deg, #3333ff, #33ccff);
+    color:rgb(245, 247, 252);
+    cursor:pointer;
+
+    font-family: consolas,'Courier New', Courier, monospace;
+}
+#timeDisplay{
+    font-size: 75px;
+   color:rgb(115, 255, 0);
+}
+#timeContainer{
+    text-align: center;
+    border:3px solid;
+    border-radius: 25px;
+    background: linear-gradient(135deg, #0000ff80, #ff3399);
+}
